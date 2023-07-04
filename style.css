@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+button {
+  border: 0;
+  background-color: unset;
+  cursor: pointer;
+}
+
+#header{
+  text-align: center;
+}
+
+#page__title {
+    font-style: italic;
+    font-size: 34px;
+    margin: 20px;
+    text-decoration: underline;
+}
+.deskForm {
+    margin: 10px
+}
+
+.deskForm label {
+    font-size: 16px;
+    margin: 0 5px 0 15px;
+}
+
+.deskForm input {
+  
+}
+
+.form__submit {
+    display: block;
+    margin: 10px auto auto auto;
+    padding: 5px 15px;
+    background-color: salmon;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.mappingContainer {
+    background-color: bisque;
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    border-radius: 20px;
+}

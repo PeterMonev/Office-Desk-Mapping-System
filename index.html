@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Desk Mapping System</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <header id="header">
+
+        <h1 id="page__title">Office Desk Mapping System</h1>
+
+        <form class="deskForm">
+            <label for="deskName">Desk Name:</label>
+            <input type="text" class="deskName" required>
+            
+            <label for="deskSymbol">Desk Symbol:</label>
+            <input type="text" class="deskSymbol" required>
+
+            <label for="deskCategory">Desk Category:</label>
+            <select required>
+               <option value="Work Desks">Work Desks</option>
+               <option value="Meeting Tables">Meeting Tables</option>
+               <option value="Break Area Tables">Break Area Tables</option>
+            </select>
+
+            <button class="form__submit" type="submit">Create Desk</button>
+          </form>
+
+        </header>
+          
+    <main id="main">
+      <div class="mappingContainer">
+      </div>
+
+    </main>  
+</body>
+</html>
